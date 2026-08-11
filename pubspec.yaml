@@ -1,0 +1,35 @@
+name: fluentai
+description: "FluentAI - AI-powered English writing assistant Flutter Android app."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_riverpod: ^2.6.1
+  shared_preferences: ^2.3.2
+  http: ^1.2.2
+  google_fonts: ^6.2.1
+  flutter_animate: ^4.5.0
+  shimmer: ^3.0.0
+  flutter_colorpicker: ^1.1.0
+  share_plus: ^10.0.2
+  flutter_tts: ^4.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  flutter_launcher_icons: ^0.14.1
+
+flutter_launcher_icons:
+  android: "ic_launcher"
+  image_path: "icon.png"
+  adaptive_icon_background: "#FFFFFF"
+  adaptive_icon_foreground: "icon.png"
+
+flutter:
+  uses-material-design: true
